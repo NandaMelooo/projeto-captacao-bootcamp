@@ -1,0 +1,51 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Menu Superior*/
+#menu_superior {
+  background: #303030;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #bababa;
+  padding: 15px;
+}
+
+#menu_superior button {
+  margin-right: 5%;
+  background-color: #0c70f2;
+  border-radius: 5px;
+  border: 0px;
+  width: 70px;
+  height: 40px;
+  font-family: "Inter";
+  font-weight: 600;
+  color: white;
+  box-shadow: 3px 2px 4px 0px #0c70f240;
+  cursor: pointer;
+}
+
+#menu_superior div a {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  font-family: "Inter";
+}
+
+#menu_link {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5%;
+}
+
+#menu_link a:hover {
+  color: #cccccc;
+}
