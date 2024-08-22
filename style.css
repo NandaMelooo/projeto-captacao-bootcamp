@@ -249,3 +249,60 @@ footer .linha02 a:first-child {
 footer .linha02 a:hover {
   color: var(--cinza-hover);
 }
+
+@media only screen and (max-width: 600px) {
+  /*Menu Superior*/
+  #menu-superior {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #menu-link {
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+
+  #menu-link a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+  }
+
+  #menu-principal button {
+    width: 100%;
+    margin: 0px;
+  }
+
+  /*Seção Principal*/
+
+  section h1 {
+    font-size: 38px;
+  }
+
+  section h2 {
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  form {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .checkbox-itens {
+    font-size: 17px;
+  }
+
+  /*Footer*/
+
+  footer .linha01 {
+    flex-direction: column;
+  }
+
+  footer .adress {
+    width: 90%;
+    padding-bottom: 5px;
+  }
+}
